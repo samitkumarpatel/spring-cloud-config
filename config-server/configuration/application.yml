@@ -1,0 +1,9 @@
+message: hi , It's me from configuration Bla Bla
+management:
+  endpoint:
+    env:
+      show-values: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
